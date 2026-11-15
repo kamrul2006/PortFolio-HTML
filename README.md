@@ -1,6 +1,6 @@
 # Kamrul Islam Apurba | Portfolio
 
-A modern, responsive personal portfolio website with a dark theme and neon green accents. It's a single HTML file with no build step, so it's quick to edit and easy to host anywhere.
+A modern, responsive personal portfolio website with a dark theme and neon green accents. It's plain HTML, CSS and JavaScript with no build step, so it's quick to edit and easy to host anywhere.
 
 ## Features
 
@@ -14,7 +14,6 @@ A modern, responsive personal portfolio website with a dark theme and neon green
 - Keyboard-friendly focus styles and `prefers-reduced-motion` support
 - Smooth scrolling and a sticky navigation bar
 
-
 ## Built with
 
 - HTML5
@@ -26,11 +25,11 @@ A modern, responsive personal portfolio website with a dark theme and neon green
 
 ```
 .
-├── index.html   # the whole portfolio (HTML, CSS and JS in one file)
+├── index.html   # page structure and JavaScript
+├── style.css    # all the styling
+├── LICENSE      # MIT License
 └── README.md
 ```
-
-> Rename `apurba-portfolio-v2.html` to `index.html` before uploading so hosting services open it automatically.
 
 ## Run locally
 
@@ -58,12 +57,12 @@ A modern, responsive personal portfolio website with a dark theme and neon green
 
 ## Customize
 
-Everything lives in `index.html`:
+Content lives in `index.html` and styling lives in `style.css`:
 
-- **Colors:** change the variables at the top of the `<style>` block (`--bg`, `--neon`, `--teal`, and so on).
+- **Colors:** change the variables at the top of `style.css` (`--bg`, `--neon`, `--teal`, and so on).
 - **Text and links:** edit the content inside each `<section>`.
 - **Projects:** copy an `<article class="card">` block and update the title, description and tags.
-- **Project screenshots:** replace the `<div class="shot ...">` mock panel with an `<img>` tag.
+- **Project screenshots:** replace the `<div class="shot ...">` mock panel (in `index.html`) with an `<img>` tag.
 - **Profile photo:** replace the `KA` text inside `<div class="orb">` with an `<img>`.
 - **Contact details:** search for the email and phone numbers and update them, including the form's `mailto:` address in the script at the bottom.
 

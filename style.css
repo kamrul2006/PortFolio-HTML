@@ -464,11 +464,52 @@ h2{
     text-decoration:none
 }
 
-.ct a:hover{border-color:var(--neon);color:var(--neon)}
-.ct small{display:block;color:var(--mute)}
-form{display:grid;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
-input,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:13px 16px;width:100%}
-input:focus,textarea:focus{border-color:var(--neon);outline:0;box-shadow:0 0 0 3px #7dff3a22}
-button{font:inherit;cursor:pointer}
-footer{border-top:1px solid var(--line);padding:30px 0 44px;color:var(--mute);font-size:.92rem;text-align:center}
-@media(prefers-reduced-motion:reduce){*,::before,::after{animation:none!important;transition:none!important}}
+.ct a:hover{
+    border-color:var(--neon);
+    color:var(--neon)
+}
+
+.ct small{
+    display:block;color:var(--mute)
+}
+
+form{
+    display:grid;gap:12px;
+    background:var(--card);
+    border:1px solid var(--line);border-radius:18px;
+    padding:24px
+}
+
+input,textarea{
+    font:inherit;
+    color:var(--ink);
+    background:var(--bg);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:13px 16px;
+    width:100%
+}
+
+input:focus,textarea:focus{
+    border-color:var(--neon);
+    outline:0;
+    box-shadow:0 0 0 3px #7dff3a22
+}
+
+button{
+    font:inherit;
+    cursor:pointer
+}
+
+footer{
+    border-top:1px solid var(--line);
+    padding:30px 0 44px;
+    color:var(--mute);
+    font-size:.92rem;
+    text-align:center
+}
+
+@media(prefers-reduced-motion:reduce){
+    *,
+    ::before,::after{animation:none!important;transition:none!important}
+}

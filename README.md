@@ -23,39 +23,34 @@ A modern, responsive personal portfolio website with a dark theme and neon green
 
 ## Project structure
 
-     ```
+```
 .
 ├── index.html   # page structure and JavaScript
 ├── style.css    # all the styling
 ├── LICENSE      # MIT License
 └── README.md
-     ```
+```
 
 ## Run locally
 
 1. Clone the repository:
-
- m  ```
-   git clone https://github.com/kamrul2006/PortFolio-HTML.git
-    ```
-
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   ```
 2. Open the folder and double-click `index.html`, or serve it with any static server:
-
-    ```
+   ```bash
    npx serve .
-    ```
+   ```
 
 ## Deploy
 
- **GitHub Pages**
-
+**GitHub Pages**
 1. Push the project to a GitHub repository.
 2. Go to **Settings → Pages**.
 3. Under **Source**, choose the `main` branch and the `/ (root)` folder, then save.
 4. Your site will be live at `https://<your-username>.github.io/<your-repo>/`.
 
-**Vercel or Netlify** 
-
+**Vercel or Netlify**
 1. Import the GitHub repository.
 2. Leave the build command empty and set the output directory to the project root.
 3. Deploy.
@@ -73,7 +68,7 @@ Content lives in `index.html` and styling lives in `style.css`:
 
 ## Contact
 
-- Email: <kamrulislamapurba@gmail.com>
+- Email: kamrulislamapurba@gmail.com
 - Location: Kishoreganj, Bangladesh
 
 ## License
